@@ -97,7 +97,7 @@ header {
 
 .our-story {
   .banner-cover {
-    background: linear-gradient(0deg, rgba(90, 134, 173, 0.1), rgba(90, 134, 173, 0.6)), url(/assets/images/our-story.jpg);
+    background-image: linear-gradient(180deg, rgba(90, 134, 173, 0.1), rgba(90, 134, 173, 0.3)), url(/assets/images/our-story.jpg);
     background-size: cover;
   }
 }
@@ -119,8 +119,9 @@ header {
 
   .banner-cover {
     // background: linear-gradient(0deg, rgba(90 134 173, 0.3), rgb(90 134 173)), url(/assets/images/rsvp.jpg);
-    background: linear-gradient(180deg, rgba(90, 134, 173, 0.5), rgba(90, 134, 173, 1)), url(/assets/images/rsvp.jpg);
+    background: linear-gradient(180deg, rgba(90, 134, 173, 0.2), rgba(90, 134, 173, 0.7)), url(/assets/images/rsvp.jpg);
     background-size: cover;
+    background-position: center top;
   }
 }
 
