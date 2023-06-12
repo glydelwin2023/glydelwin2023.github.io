@@ -1,0 +1,153 @@
+$primary-color: #5A86AD;
+$text-color: #47515a;
+$border-color: #ddd;
+$black-color: #000;
+$white-color: #fff;
+$font-title: 400 70px/80px marsha, Dosis;
+$font-italic: italic 400 30px/40px Playfair Display, Arial;
+$play: 100 60px/80px Playfair, Arial;
+$font-text: 200 40px Dosis, Arial;
+
+.progress-container {
+  height: 8px;
+  position: fixed;
+  top: 0;
+  z-index: 2;
+  width: 100%;
+  background-color: $border-color;
+
+  .progress-bar {
+    height: 8px;
+    background: $primary-color;
+    width: 0%;
+  }
+}
+
+.cursive {
+  font: $font-title;
+}
+
+.italic {
+  font: $font-italic;
+}
+
+.text {
+  font: $font-text;
+}
+
+.play {
+  font: $play;
+}
+
+.banner-display {
+  background-repeat: no-repeat;
+  width: 100%;
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  background-attachment: fixed;
+  color: $white-color;
+}
+
+header {
+  .header-content {
+    border-bottom: 1px solid $border-color;
+    background: rgba(255,255,255,0.8);
+    position: fixed;
+    left: 0;
+    right: 0;
+    z-index: 2;
+  }
+}
+
+.text-title {
+  color: $primary-color;
+}
+
+.banner {
+  position: relative;
+  overflow: hidden;
+  padding: 0;
+
+  .banner-cover {
+    background-image: url(/assets/images/banner.jpg);
+
+    h1 {
+      font: $font-title;
+      font-size: 4.5rem;
+    }
+
+    h3 {
+      margin-top: 1em;
+      font: $font-text;
+    }
+
+    .txt-tech {
+      margin-top: 10%;
+      font: $font-text;
+    }
+  }
+}
+
+.section {
+  position: relative;
+  overflow: hidden;
+  padding: 0;
+}
+
+.our-story {
+  .banner-cover {
+    background: linear-gradient(0deg, rgba(90, 134, 173, 0.1), rgba(90, 134, 173, 0.6)), url(/assets/images/our-story.jpg);
+    background-size: cover;
+  }
+}
+
+.colored-section {
+  background-color: $primary-color;
+}
+
+.rsvp {
+  .rsvp-btn {
+    color: $primary-color;
+    background-color: $white-color;
+    text-decoration: none;
+    border: 1px solid $white-color;
+    padding: 0.5em 1em;
+    font-size: 2em;
+    border-radius: 15px;
+  }
+
+  .banner-cover {
+    // background: linear-gradient(0deg, rgba(90 134 173, 0.3), rgb(90 134 173)), url(/assets/images/rsvp.jpg);
+    background: linear-gradient(180deg, rgba(90, 134, 173, 0.5), rgba(90, 134, 173, 1)), url(/assets/images/rsvp.jpg);
+    background-size: cover;
+  }
+}
+
+.the-wedding {
+  .banner-cover {
+    background-image: url(/assets/images/the-wedding.jpg);
+  }
+
+  .count {
+    margin: 0 0.5em;
+    text-align: center;
+    border: 1px solid;
+    border-radius: 10px;
+    padding: 10px;
+
+    strong, span {
+      display: block;
+      font: $play;
+    }
+
+    strong {
+      font-size: 2em;
+    }
+
+    span {
+      font-size: 0.5em;
+      line-height: 1em;
+    }
+  }
+}
