@@ -36,6 +36,11 @@ var x = setInterval(function() {
 }, 1000);
 
 $(document).ready(function() {
+  setTimeout(function() {
+    $('.loading-content').hide();
+    $('.content').removeClass('content-hidden');
+  }, 15000);
+
   $(document).on('scroll', function() {
     const nowScrollTop = $(this).scrollTop();
 
@@ -50,7 +55,7 @@ $(document).ready(function() {
     e.preventDefault();
     const body = $('body');
     const target = $($(this).attr('href'));
-    var position = target.offset().top - body.offset().top + body.scrollTop();
+    var position = target.offset().top - body.offset().top + body.scrollTop() - 100;
 
     $('#bdNavbar').offcanvas('hide')
     $('body, html').animate({ scrollTop: position });

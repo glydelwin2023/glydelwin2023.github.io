@@ -32,7 +32,7 @@ TxtRotate.prototype.tick = function() {
   } else if (this.isDeleting && this.txt === '') {
     this.isDeleting = false;
     this.loopNum++;
-    delta = 1000;
+    delta = 500;
   }
 
   setTimeout(function() {
@@ -52,6 +52,6 @@ window.onload = function() {
   // INJECT CSS
   var css = document.createElement("style");
   css.type = "text/css";
-  css.innerHTML = ".txt-rotate > .wrap { border-right: 0.08em solid #F26921 }";
+  css.innerHTML = ".txt-rotate > .wrap { border-right: 0.08em solid #5A86AD }";
   document.body.appendChild(css);
 };
