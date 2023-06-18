@@ -99,7 +99,7 @@ $font-text: 200 40px Dosis, Arial;
 
 header {
   .header-content {
-    background-color: rgba(255 255 255 / 60%);
+    background-color: rgba(255, 255, 255, 0.6);
     border-bottom: 1px solid $primary-color;
     position: fixed;
     left: 0;
@@ -320,7 +320,7 @@ header {
   }
 
   .accordion-item {
-    background-color: rgba(255 255 255 / 50%);
+    background-color: rgba(255, 255, 255, 0.5);
     border: 1px solid $primary-color;
 
     .accordion-button {
