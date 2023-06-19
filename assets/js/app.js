@@ -55,7 +55,7 @@ $(document).ready(function() {
     e.preventDefault();
     const body = $('body');
     const target = $($(this).attr('href'));
-    var position = target.offset().top - body.offset().top + body.scrollTop() - 100;
+    var position = target.offset().top - body.offset().top + body.scrollTop();
 
     $('#bdNavbar').offcanvas('hide')
     $('body, html').animate({ scrollTop: position });
