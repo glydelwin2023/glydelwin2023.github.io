@@ -39,7 +39,7 @@ $(document).ready(function() {
   setTimeout(function() {
     $('.loading-content').hide();
     $('.content').addClass('content-show');
-  }, 15000);
+  }, 16000);
 
   $(document).on('scroll', function() {
     const nowScrollTop = $(this).scrollTop();
