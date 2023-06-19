@@ -8,10 +8,10 @@ $font-italic: italic 400 30px/40px Playfair Display, Arial;
 $play: 100 60px/80px Playfair, Arial;
 $font-text: 200 40px Dosis, Arial;
 
-.content.content-hidden {
-  height: 0 !important;
-  overflow: hidden;
-  visibility: hidden;
+.content.content-show {
+  height: auto !important;
+  overflow: auto !important;
+  visibility: visible !important;
 }
 
 .red-text {

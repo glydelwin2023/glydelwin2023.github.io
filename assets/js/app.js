@@ -38,7 +38,7 @@ var x = setInterval(function() {
 $(document).ready(function() {
   setTimeout(function() {
     $('.loading-content').hide();
-    $('.content').removeClass('content-hidden');
+    $('.content').addClass('content-show');
   }, 15000);
 
   $(document).on('scroll', function() {
