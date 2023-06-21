@@ -14,6 +14,13 @@ $font-text: 200 40px Dosis, Arial;
   visibility: visible !important;
 }
 
+.nav-link {
+  &:hover {
+    color: #296498;
+    text-decoration: underline;
+  }
+}
+
 .red-text {
   color: red;
 }
@@ -99,8 +106,8 @@ $font-text: 200 40px Dosis, Arial;
 
 header {
   .header-content {
-    background-color: rgba(255, 255, 255, 0.6);
-    border-bottom: 1px solid $primary-color;
+    background-color: rgba(255, 255, 255, 0.8);
+    border-bottom: 5px solid $primary-color;
     position: fixed;
     left: 0;
     right: 0;
@@ -365,6 +372,10 @@ header {
   }
 }
 
+.attires {
+  border-top: 1em solid $primary-color;
+}
+
 .locations {
   .banner-cover {
     background-image: linear-gradient(180deg, rgba(90, 134, 173, 0.1), rgba(90, 134, 173, 0.3)), url(/assets/images/locations.jpg);
@@ -396,6 +407,7 @@ header {
 
 .colored-section {
   background-color: $primary-color;
+  border-top: 10px solid $white-color;
 
   h1, p {
     color: $white-color;
