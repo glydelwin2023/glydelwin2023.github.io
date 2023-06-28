@@ -119,6 +119,18 @@ header {
   }
 }
 
+.invitation {
+  margin-top: 10%;
+
+  .banner-display.banner-cover {
+    height: 50vh !important;
+
+    .txt-tech {
+      margin-top: 10px;
+    }
+  }
+}
+
 .text-title {
   color: $primary-color;
 }
