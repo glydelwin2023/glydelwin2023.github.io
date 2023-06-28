@@ -13,20 +13,19 @@
       </div>
     </div>
   </div>
-  <div class="invitation section" id="invitation" style="background-image: url(/assets/images/invite-WB.png); background-size: cover; background-repeat: no-repeat; color: #646044;">
+  <div class="invitation section white-section" id="invitation" style="background-image: url(/assets/images/invite-WB.png); background-size: cover; background-repeat: no-repeat; color: #646044;">
     <div class="container mb-5">
       <div class="row">
         <div class="col-md-12">
-          <p class="text-center mt-5 mb-0" style="font-size: 50px; font-family: alice;">YOU'RE INVITED</p>
-          <p class="text-center mt-0" style="font-size: 25px; font-family: alice;">TO THE WEDDING <br/> OF</p>
-          <h1 class="cursive mb-1 mt-2 text-center">Glydel Macalintal & Erwin Seribo</h1>
+          <p class="text-center mt-5 mb-5" style="font-size: 35px; font-family: alice;">We are pleased to invite you to our wedding</p>
+          <h1 class="cursive mb-1 mt-2 text-center">Glydel + Erwin</h1>
 
-           <p class="text-center mt-1" style="font-size: 37px; font-family: alice;">TOGETHER</p>
-           <p class="text-center mt-1" style="font-size: 37px; font-family: alice;">WITH THEIR FAMILIES</p>
+          <p class="text-center mt-1" style="font-size: 37px; font-family: alice;">TOGETHER</p>
+          <p class="text-center mt-1" style="font-size: 37px; font-family: alice;">WITH THEIR FAMILIES</p>
 
-           <p class="text-center mt-2 mb-5" style="font-size: 23px; font-family: alice;" >INVITE YOU TO SHARE AS WE EXCHANGE MARRIAGE VOWS</p>
+          <p class="text-center mt-2 mb-5" style="font-size: 23px; font-family: alice;" >INVITE YOU TO SHARE AS WE EXCHANGE MARRIAGE VOWS</p>
 
-           <p class="text-center mt-1" style="font-size: 40px; font-family: alice;">08  |  06  |  2023</p>
+          <p class="text-center mt-1" style="font-size: 40px; font-family: alice;">08  |  06  |  2023</p>
 
           <div class="row mt-5 mb-5">
             <div class="col-md-4 text-center mt-5">
@@ -46,9 +45,38 @@
               <p class="text-center mt-0" style="font-size: 12px; font-family: cormant sc;">5:00 PM</p>
             </div>
           </div>
+          <p class="text-center mt-2" style="font-size: 23px; font-family: alice;">RSVP 2 WEEKS BEFORE AUGUST 06</p>
+          <div class="mt-5 text-center">
+            <a href="#/home" class="primary-btn">visit our website for more details and direction guide</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="invitation section colored-section">
+    {% assign guest = site.data.guests[page.code] %}
+    <div class="container">
+      <div class="row mt-5 mb-5">
+        <h2 class="mt-5 mb-5 cursive text-center">We would like to invite</h2>
+        <div class="text-center">
+          <h3 class="play">{{ guest.primary }}</h3>
+          {% if guest.secondary %}
+          <p class="mt-3 mb-3 italic">together with</p>
+          {% endif %}
+          {% for secondary in guest.secondary %}
+            <h4 class="play">{{ secondary }}</h4>
+          {% endfor %}
+        </div>
+        <div class="text-center mt-5">
+          <p>Please use this invitation code for RSVP <strong class="black-text">{{ page.code }}</strong> to confirm.</p>
+          <p>Invitation code is unique per invitation.</p>
+          <p>Please RSVP per person from above names. We already added you into our guest list.</p>
+          <p>We want to confirm that you will be able to attend into our wedding.</p>
 
-           <p class="text-center mt-2" style="font-size: 23px; font-family: alice;">RSVP BEFORE AUGUST 06</p>
-
+          <div class="mt-5 text-center">
+            <div class="mouse"></div>
+            <p class="mt-2">scroll down to RSVP</p>
+          </div>
         </div>
       </div>
     </div>

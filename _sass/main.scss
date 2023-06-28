@@ -29,6 +29,10 @@ $font-text: 200 40px Dosis, Arial;
   color: green;
 }
 
+.black-text {
+  color: $black-color;
+}
+
 .loading-content {
   text-align: center;
   position: absolute;
@@ -48,6 +52,15 @@ $font-text: 200 40px Dosis, Arial;
 .logo-head {
   font-size: 2.5em !important;
   text-decoration: none;
+}
+
+.primary-btn {
+  color: $primary-color;
+  text-decoration: none;
+  border: 1px solid $primary-color;
+  padding: 0.5em 1em;
+  font-size: 1.5em;
+  border-radius: 15px;
 }
 
 .progress-container {
@@ -120,11 +133,17 @@ header {
 }
 
 .invitation {
-  margin-top: 10%;
+  h3 {
+    font-size: 2.5em !important;
+  }
+
+  h4 {
+    font-size: 2em !important;
+    line-height: 1.5em;
+    margin: 0;
+  }
 
   .banner-display.banner-cover {
-    height: 50vh !important;
-
     .txt-tech {
       margin-top: 10px;
     }
@@ -133,6 +152,43 @@ header {
 
 .text-title {
   color: $primary-color;
+}
+
+.mouse {
+  margin: auto;
+  width: 50px;
+  height: 90px;
+  border: 3px solid $white-color;
+  border-radius: 60px;
+  position: relative;
+  &::before {
+    content: '';
+    width: 12px;
+    height: 12px;
+    position: absolute;
+    top: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: $white-color;
+    border-radius: 50%;
+    opacity: 1;
+    animation: wheel 2s infinite;
+    -webkit-animation: wheel 2s infinite;
+  }
+}
+
+@keyframes wheel {
+  to {
+    opacity: 0;
+    top: 60px;
+  }
+}
+
+@-webkit-keyframes wheel {
+  to {
+    opacity: 0;
+    top: 60px;
+  }
 }
 
 @keyframes bannerImages {
@@ -421,7 +477,7 @@ header {
   background-color: $primary-color;
   border-top: 10px solid $white-color;
 
-  h1, p {
+  h1, h2, h3, h4, p {
     color: $white-color;
   }
 }

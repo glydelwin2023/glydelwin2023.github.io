@@ -40,6 +40,7 @@ $(document).ready(function() {
     $('.loading-content').hide();
     $('.content').addClass('content-show');
   }, 16000);
+  // }, 100);
 
   $(document).on('scroll', function() {
     const nowScrollTop = $(this).scrollTop();
