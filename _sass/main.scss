@@ -534,6 +534,12 @@ header {
   }
 }
 
+.save-the-date {
+  iframe {
+    height: 800px;
+  }
+}
+
 @media screen and (max-width: 1024px) {
   .txt-tech {
     font-size: 2em !important;
@@ -600,6 +606,10 @@ header {
       h1 {
         font-size: 3em;
         text-align: center;
+      }
+
+      iframe {
+        height: 400px;
       }
     }
 
