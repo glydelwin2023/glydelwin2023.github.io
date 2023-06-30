@@ -44,7 +44,7 @@ $(document).ready(function() {
       $('.scroll-to[href="' + window.location.hash +'"]').click();
     }
 
-  }, 16000);
+  }, 8000);
   // }, 100);
 
   $(document).on('scroll', function() {
