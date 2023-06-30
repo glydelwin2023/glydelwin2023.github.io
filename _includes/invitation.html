@@ -85,7 +85,7 @@
 <script type="text/javascript">
   $('.scroll-to').on('click', function(e) {
     e.preventDefault();
-    let url = $(this).attr('href');
+    let url = "/" + $(this).attr('href');
 
     window.location.href = url;
   });

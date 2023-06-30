@@ -39,6 +39,11 @@ $(document).ready(function() {
   setTimeout(function() {
     $('.loading-content').hide();
     $('.content').addClass('content-show');
+
+    if (!!window.location.hash) {
+      $('.scroll-to[href="' + window.location.hash +'"]').click();
+    }
+
   }, 16000);
   // }, 100);
 
