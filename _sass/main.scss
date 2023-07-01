@@ -35,7 +35,7 @@ $font-text: 200 40px Dosis, Arial;
 }
 
 .black-text {
-  color: $black-color;
+  color: red;
 }
 
 .loading-content {
@@ -598,6 +598,24 @@ header {
           padding: 0.75em 0;
           border-radius: 5px;
           font: $font-text;
+        }
+      }
+    }
+
+    &.invitation {
+      .instruction-text {
+        p {
+          font-size: 1em;
+        }
+      }
+
+      .guest-names {
+        h3 {
+          font-size: 2em !important;
+        }
+
+        h4 {
+          font-size: 1.5em !important;
         }
       }
     }

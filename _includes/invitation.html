@@ -58,7 +58,7 @@
     <div class="container">
       <div class="row mt-5 mb-5">
         <h2 class="mt-5 mb-5 cursive text-center">We would like to invite</h2>
-        <div class="text-center">
+        <div class="text-center guest-names">
           <h3 class="play">{{ guest.primary }}</h3>
           {% if guest.secondary %}
           <p class="mt-3 mb-3 italic">together with</p>
@@ -67,8 +67,8 @@
             <h4 class="play">{{ secondary }}</h4>
           {% endfor %}
         </div>
-        <div class="text-center mt-5">
-          <p>Please use this invitation code for RSVP <strong class="black-text">{{ page.code }}</strong> to confirm.</p>
+        <div class="text-center mt-5 instruction-text">
+          <p>Please use this <u class="black-text">invitation code</u> for RSVP <strong class="black-text">{{ page.code }}</strong> to confirm.</p>
           <p>Please RSVP per person from above names. We already added you into our guest list.</p>
           <p>We will just want to confirm that you will be able to attend into our wedding.</p>
           <p>Invitation code is unique per invitation.</p>

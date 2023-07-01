@@ -30,6 +30,9 @@ LATS0623:
 QCRA0623:
   primary: Alvin & Rhona Theresa Sambrano
   secondary:
+    - Dwight Cyril S. Sambrano
+    - Robin Iverson S. Sambrano
+    - Brice  Aldrin S. Sambrano
 CVFJ0623:
   primary: Mr. Francisco & Mrs. Joanne Breguera
 PARO0623:
@@ -37,9 +40,17 @@ PARO0623:
 TANV0623:
   primary: Mrs. Novelyn Dangiw
 TARB0623:
-  primary:  Mr. Robert Fontanilla
+  primary: Mr. Robert Fontanilla
 BGMN0623:
   primary: Mr. Manuel & Mrs. Noralyn Seribo
   secondary:
     - Janessa Shene Seribo
     - Sheila Seribo
+TAJA0623:
+  primary: Jhon Mark Espiritu & Abegail Sumbilla
+TABV0623:
+  primary: Roel Espiritu & Vida Mae Arcega
+  secondary:
+    - Eissenheim Arcega
+TAME0623:
+  primary: Marites Espiritu
