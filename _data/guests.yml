@@ -10,7 +10,7 @@ BGMK0623:
 BGKK0623:
   primary: Kevin John Reforba & Kristine Reforba
 JPRH0623:
-  primary:  Mr. Rikiyoshi & Mrs. Heroku Yoshida
+  primary:  Mr. Rikiyoshi & Mrs. Heroko Yoshida
   secondary:
     - Yui Yoshida
 SGPR0623:
@@ -39,8 +39,6 @@ PARO0623:
   primary: Mr. Rodello F. Caspillan
 TANV0623:
   primary: Mrs. Novelyn Dangiw
-TARB0623:
-  primary: Mr. Robert Fontanilla
 BGMN0623:
   primary: Mr. Manuel & Mrs. Noralyn Seribo
   secondary:
@@ -54,3 +52,36 @@ TABV0623:
     - Eissenheim Arcega
 TAME0623:
   primary: Marites Espiritu
+BGTG0623:
+  primary: Thelma Fontanilla
+  secondary:
+    - Gerald Fontanilla
+    - Ashley Fontanilla
+BGMD0623:
+  primary: Jhomar Degamo
+  secondary: Moselle Degamo
+BGDD0623:
+  primary: Diana Degamo
+CVFJ0623:
+  primary: Mr. Francisco & Mrs. Joanne Breguera
+ACJN0623:
+  primary: Junyang Ng
+ACMG0623:
+  primary: Melvrick Go
+ACPR0623:
+  primary: Psalm & Regh Aguillar
+ACSA0623:
+  primary: Stephen Advincula
+CAMD0623:
+  primary: Mr. Dominador Mrs. Marlene Degamo
+  unlisted: true
+FRRS0623:
+  primary: Mr Robert & Mrs. Shirley Fontanilla
+  unlisted: true
+  secondary:
+    - Jhon Mark Fontanilla
+    - Mary Joyce Fontanilla
+TACS0623:
+  primary: Mr. Speedy Domingo & Mrs. Christine Teñoso
+  secondary:
+    - Rex Tenoso
