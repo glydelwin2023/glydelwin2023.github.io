@@ -7,6 +7,8 @@ BGCR0623:
     - Kaethe Chezmin Bustarde
 BGMK0623:
   primary:  Mark Jaylon & Karissa Mae Ignacio
+BGNJ0623:
+  primary: Mr. Noel & Mrs. Josephine Ignacio
 BGKK0623:
   primary: Kevin John Reforba & Kristine Reforba
 JPRH0623:
@@ -51,7 +53,7 @@ TABV0623:
   secondary:
     - Eissenheim Arcega
 TAME0623:
-  primary: Marites Espiritu
+  primary: Mr. Rufino & Mrs. Marites Espiritu
 BGTG0623:
   primary: Thelma Fontanilla
   secondary:
@@ -62,16 +64,12 @@ BGMD0623:
   secondary: Moselle Degamo
 BGDD0623:
   primary: Diana Degamo
-CVFJ0623:
-  primary: Mr. Francisco & Mrs. Joanne Breguera
-ACJN0623:
-  primary: Junyang Ng
-ACMG0623:
-  primary: Melvrick Go
-ACPR0623:
-  primary: Psalm & Regh Aguillar
-ACSA0623:
-  primary: Stephen Advincula
+TADM0623:
+  primary: Col. David & Mrs Mary Arcega
+  secondary:
+    - Mher Dane Arcega
+TAMA0623:
+  primary: Mary Anne Tablang
 CAMD0623:
   primary: Mr. Dominador Mrs. Marlene Degamo
   unlisted: true
