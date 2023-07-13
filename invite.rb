@@ -13,4 +13,6 @@ data.each do |code, guests|
   file_path = File.join(dir_path,'index.html')
 
   File.open(file_path, 'w') { |f| f.write(updated_template) }
+
+  puts "https://glydelwin2023.github.io/invitations/#{code}"
 end
