@@ -182,6 +182,13 @@ header {
   }
 }
 
+.gift {
+  img {
+    border-radius: 65% 0 65% 0;
+    width: 100%;
+  }
+}
+
 @keyframes wheel {
   to {
     opacity: 0;
