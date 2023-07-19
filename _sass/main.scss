@@ -576,6 +576,13 @@ header {
       }
     }
 
+    &.gift {
+      h1 {
+        font-size: 3em !important;
+        text-align: center;
+      }
+    }
+
     &.our-story {
       .col-md-6 {
         background-color: rgba(90, 134, 173, 0.7);
